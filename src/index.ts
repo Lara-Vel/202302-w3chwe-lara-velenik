@@ -1,3 +1,3 @@
 import App from "./components/Component/App/App.js";
 
-const app = new App(document.querySelector(".root") as HTMLElement).render();
+const app = new App(document.querySelector("body") as HTMLElement).render();

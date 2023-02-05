@@ -1,0 +1,32 @@
+html {
+  font-family: "Bangers", cursive;
+}
+
+body {
+  background-image: url("/pokemon-background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  background-color: rgba(254, 202, 5, 255);
+  border: 3px solid #3d60ab;
+  min-width: 12%;
+}
+button:hover {
+  filter: brightness(80%);
+  transition: filter 0.25s;
+}
